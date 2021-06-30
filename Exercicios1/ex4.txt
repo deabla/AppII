@@ -1,0 +1,11 @@
+4. Faça um programa que calcule e mostre a área de um quadrado;
+
+
+void main() {
+
+  double ladoQuadrado = 2;
+  double result = ladoQuadrado * ladoQuadrado;
+  
+  print("Área de um quadrado: $result m²");
+   
+}
