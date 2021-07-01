@@ -1,0 +1,26 @@
+3 - Desenvolver
+um programa que receba três variáveis: a, b e c. Sabe-se que a = 2; b = 4; c =
+5. Calcule as seguintes fórmulas:
+
+void main() {
+  
+  int a = 3;
+  int b = 2;
+  int c = 1;
+  int result;
+  
+  
+  print("Variaveis: \n A = $a \n B = $b \n C = $c");
+  
+  result = a + b * c;
+  
+  print ("Cálculo A: = a + b * c");
+  
+  print("RESULTADO: $result");
+  
+  result = - 2 + (b ~/ a * c) ;
+  
+  print ("Cálculo B: 2 = b / a * c");
+  
+  print("RESULTADO: $result");
+}

@@ -1,0 +1,32 @@
+6 - Desenvolver
+um programa em Dart que calcule a média de 4 notas de um aluno. Verifique se a
+média for maior ou igual a 7 o aluno está aprovado e caso contrário Reprovado.
+Informe ainda o conceito de acordo com a tabela: A - 10 - 9, B - 8.9 - 8, C -
+7.9 a 7, F - menor que 7
+
+void main() {
+  
+  double nota1 = 9;
+  double nota2 = 9;
+  double nota3 = 5;
+  double nota4 = 8;
+  double result = (nota1 + nota2 + nota3 + nota4) / 4;
+  
+  if (result >= 7){
+    
+    print("Aprovado! $result");
+    if(result >= 9){
+      
+    print("Conceito: A.");
+    }else if(result >= 8 && result <= 8.9){
+      
+       print("Conceito: B.");
+    }else{
+      print("Conceito: C.");
+    }
+  }
+  else{
+    print("Reprovado, Conceito: $result");
+    print("Conceito: F");
+  }
+}
