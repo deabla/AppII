@@ -1,0 +1,15 @@
+3. Suponha que você esteja desenvolvendo um programação que realiza a multiplicação entre dois números inteiros e 
+repita esta operação até chegar ao valor de 1200.
+ Exibir as operações efetuadas na tela.
+
+void main() {
+  int operacao = 5;
+  int result =0;
+  
+  for(int i = 1; i <= 240; i++){
+    
+    result = i * operacao;
+    
+    print(' $operacao * $i = $result');
+  }
+}
