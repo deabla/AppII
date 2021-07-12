@@ -1,0 +1,19 @@
+1. Escreva uma função que receba dois números inteiros retorne o menor número.
+
+void main(){
+  int n1 = 78;
+  int n2 = 52;
+  
+  print("O menor número é " + menorNumero(n1, n2).toString());
+} 
+
+int menorNumero(int n1, int n2){
+  int menor;
+  	if(num1 < n2){
+    		menor = n1;
+  	}else{
+    		menor = n2;
+  	}
+  
+  		return menor;
+	}

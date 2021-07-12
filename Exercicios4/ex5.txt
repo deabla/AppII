@@ -1,0 +1,20 @@
+5. Escreva uma função que recebe, por parâmetro, receba 2 valores inteiros e positivo e retorna o somatório desse valor.
+
+void main(){
+  int n1 = -1;
+  int n2 = 3;
+  
+  print("Soma = " + soma(n1, n2).toString());
+  
+} 
+
+int soma(int n1, int n2){
+  int soma = 0;
+  
+  if(n1 < 0 || n2 < 0){
+    print("Não aceito! numero negativo.");
+  }else{
+    soma = n1 + n2;
+  }
+  return soma;
+}

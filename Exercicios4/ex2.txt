@@ -1,0 +1,21 @@
+2. Faça uma função que recebe por parâmetro um valor inteiro e positivo e retorna o valor lógico Verdadeiro 
+caso o valor seja primo e Falso em caso contrário.
+
+void main(){
+  int num = 18;
+  
+  ePrimo(num);
+} 
+
+bool ePrimo(int num){
+  if(num < 0){
+    print("Número inválido");
+  }
+  
+  for (int j = 2; j < num; j++) {
+    if (num % j == 0){
+      return false;
+    }
+  }
+  return true;
+}
